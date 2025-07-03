@@ -19,6 +19,9 @@ published: true
 ---
 
 ![](/images/xc-1024x791.png)
+When routes compete with each other for the highest reward
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
+
 
 This post is a collection of learnings around contextual bandits. At Ravelin, we use these techniques to optimise transaction conversion rates.
 

@@ -17,6 +17,9 @@ published: true
 ---
 
 ![](/images/IMG_20231222_105730-edited-scaled.jpg)
+A musical score from the Ming dynasty
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
+
 
 Why language learning is a great hobby to have, how to avoid negative ways of thinking when learning languages, and the strategies which have served me well so far.
 

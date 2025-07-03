@@ -18,17 +18,9 @@ coverImage: "/images/run-scaled.jpg"
 published: true
 ---
 
-<figure>
-
 ![](/images/run-1024x599.jpg)
-
-<figcaption>
-
-_My phone took this photo without me realising whilst on a run_
-
-</figcaption>
-
-</figure>
+My phone took this photo without me realising whilst on a run
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
 In this post I wanted to write down some of my learnings when building an application to update my Strava activities with fun poems.
 

@@ -1,6 +1,8 @@
 ---
+layout: default
 title: "About"
 date: 2024-11-25
+permalink: /about/
 ---
 
 ## About me

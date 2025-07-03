@@ -19,7 +19,9 @@ coverImage: "/images/IMG_20240907_135812-e1737928070157.jpg"
 published: true
 ---
 
-![Murphy, at an intermediate size](/images/IMG_20240907_135812-1024x769.jpg)
+![](/images/IMG_20240907_135812-1024x769.jpg)
+Murphy, at an intermediate size
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
 These are the resources and media I find to be the most useful in learning Mandarin.
 

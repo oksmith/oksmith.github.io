@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Why Evaluating Contextual Bandit Models Is Hard"
 date: 2024-11-30
 categories: 
@@ -14,6 +15,7 @@ tags:
   - "reinforcement-learning"
   - "transaction-optimisation"
 coverImage: "xc.png"
+published: true
 ---
 
 ![](images/xc-1024x791.png)

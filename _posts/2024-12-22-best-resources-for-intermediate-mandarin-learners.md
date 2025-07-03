@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Best resources for intermediate Mandarin learners"
 date: 2024-12-22
 categories: 
@@ -15,6 +16,7 @@ tags:
   - "tv"
   - "writing"
 coverImage: "IMG_20240907_135812-e1737928070157.jpg"
+published: true
 ---
 
 <figure>

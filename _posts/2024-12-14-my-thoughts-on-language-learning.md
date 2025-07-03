@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "My thoughts on language learning"
 date: 2024-12-14
 categories: 
@@ -12,6 +13,7 @@ tags:
   - "mandarin"
   - "mindset"
 coverImage: "IMG_20231222_105730-edited-scaled.jpg"
+published: true
 ---
 
 <figure>

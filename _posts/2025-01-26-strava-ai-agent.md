@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Building an AI Agent to manage my Strava activities"
 date: 2025-01-26
 categories: 
@@ -14,6 +15,7 @@ tags:
   - "running"
   - "strava"
 coverImage: "run-scaled.jpg"
+published: true
 ---
 
 <figure>

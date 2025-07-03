@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "RAG Powered by Graphs: Navigating Our Codebase"
 date: 2024-12-27
 categories: 
@@ -15,6 +16,7 @@ tags:
   - "llamaindex"
   - "rag"
 coverImage: "graph-pattern-scaled.jpg"
+published: true
 ---
 
 <figure>

@@ -19,17 +19,7 @@ coverImage: "IMG_20240907_135812-e1737928070157.jpg"
 published: true
 ---
 
-<figure>
-
-![](images/IMG_20240907_135812-1024x769.jpg)
-
-<figcaption>
-
-_Murphy, at an intermediate size._
-
-</figcaption>
-
-</figure>
+![Murphy, at an intermediate size](images/IMG_20240907_135812-1024x769.jpg)
 
 These are the resources and media I find to be the most useful in learning Mandarin.
 

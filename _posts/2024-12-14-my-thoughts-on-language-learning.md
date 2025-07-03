@@ -16,17 +16,7 @@ coverImage: "IMG_20231222_105730-edited-scaled.jpg"
 published: true
 ---
 
-<figure>
-
-![](images/IMG_20231222_105730-edited-scaled.jpg)
-
-<figcaption>
-
-_A musical score from the Ming dynasty._
-
-</figcaption>
-
-</figure>
+![ming-muscial-score](images/IMG_20231222_105730-edited-scaled.jpg)
 
 Why language learning is a great hobby to have, how to avoid negative ways of thinking when learning languages, and the strategies which have served me well so far.
 

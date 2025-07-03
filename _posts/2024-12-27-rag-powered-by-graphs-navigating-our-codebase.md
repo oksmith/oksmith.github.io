@@ -19,8 +19,9 @@ coverImage: "/images/graph-pattern-scaled.jpg"
 published: true
 ---
 
-![Photo by [Alina Grubnyak](https://unsplash.com/@alinnnaaaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/low-angle-photography-of-metal-structure-ZiQkhI7417A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)](/images/graph-pattern-1024x683.jpg)
-
+![](/images/graph-pattern-1024x683.jpg)
+Photo by [Alina Grubnyak](https://unsplash.com/@alinnnaaaa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/low-angle-photography-of-metal-structure-ZiQkhI7417A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
 We found ourselves always asking the same questions. If a client stops sending us this API field, what ML features will be affected? Does this feature use this part of the code? What features depend on this service? We put together the dream hackathon team to build a chatbot to answer these questions for us.
 

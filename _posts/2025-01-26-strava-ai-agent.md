@@ -14,13 +14,13 @@ tags:
   - "llm"
   - "running"
   - "strava"
-coverImage: "run-scaled.jpg"
+coverImage: "/images/run-scaled.jpg"
 published: true
 ---
 
 <figure>
 
-![](images/run-1024x599.jpg)
+![](/images/run-1024x599.jpg)
 
 <figcaption>
 

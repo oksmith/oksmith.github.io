@@ -1145,3 +1145,14 @@ Modules - reusable parts of our design
 //@import "highlights";
 @import "darcula";
 @import "svg-icons";
+
+
+.cover-image {
+  display: block;
+  max-width: 200px;   // or whatever size you want
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1em auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}

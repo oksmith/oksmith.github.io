@@ -12,9 +12,9 @@ layout: default
           <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
         </div>
       </a>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+      {% if post.coverImage %}
+        <img class="cover-image" src="{{ post.coverImage | prepend: site.baseurl }}" alt="{{ post.title }} cover image">
+      {% endif %}
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>

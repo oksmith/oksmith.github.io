@@ -15,7 +15,7 @@ tags:
   - "langchain"
   - "llamaindex"
   - "rag"
-coverImage: "graph-pattern-scaled.jpg"
+coverImage: "/images/graph-pattern-scaled.jpg"
 published: true
 ---
 

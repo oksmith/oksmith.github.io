@@ -1156,3 +1156,13 @@ Modules - reusable parts of our design
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
+
+.post .entry img {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  margin: 1.5em auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}

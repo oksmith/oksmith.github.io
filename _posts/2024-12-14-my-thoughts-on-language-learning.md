@@ -12,11 +12,11 @@ tags:
   - "learning-languages"
   - "mandarin"
   - "mindset"
-coverImage: "IMG_20231222_105730-edited-scaled.jpg"
+coverImage: "images/IMG_20231222_105730-edited-scaled.jpg"
 published: true
 ---
 
-![ming-muscial-score](images/IMG_20231222_105730-edited-scaled.jpg)
+![](images/IMG_20231222_105730-edited-scaled.jpg)
 
 Why language learning is a great hobby to have, how to avoid negative ways of thinking when learning languages, and the strategies which have served me well so far.
 

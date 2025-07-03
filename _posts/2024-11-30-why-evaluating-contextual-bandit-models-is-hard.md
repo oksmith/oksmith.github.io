@@ -14,7 +14,7 @@ tags:
   - "ravelin"
   - "reinforcement-learning"
   - "transaction-optimisation"
-coverImage: "xc.png"
+coverImage: "images/xc.png"
 published: true
 ---
 

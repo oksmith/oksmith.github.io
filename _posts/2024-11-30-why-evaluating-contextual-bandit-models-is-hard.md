@@ -14,11 +14,11 @@ tags:
   - "ravelin"
   - "reinforcement-learning"
   - "transaction-optimisation"
-coverImage: "images/xc.png"
+coverImage: "/images/xc.png"
 published: true
 ---
 
-![](images/xc-1024x791.png)
+![](/images/xc-1024x791.png)
 
 This post is a collection of learnings around contextual bandits. At Ravelin, we use these techniques to optimise transaction conversion rates.
 

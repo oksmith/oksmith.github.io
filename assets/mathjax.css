@@ -1,0 +1,133 @@
+/* MathJax Styles */
+.MathJax {
+  font-size: 1.1em;
+}
+
+.MathJax_Display {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.MathJax_Display > .MathJax {
+  text-align: left;
+}
+
+/* Better spacing for inline math */
+.MathJax_Display + p {
+  margin-top: 1.5em;
+}
+
+/* Ensure math doesn't break line spacing */
+.MathJax_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Mobile responsiveness for math */
+@media (max-width: 768px) {
+  .MathJax_Display {
+    font-size: 0.9em;
+  }
+  
+  .MathJax {
+    font-size: 1em;
+  }
+}
+
+/* GitHub Gist Styles */
+.gist {
+  margin: 2em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gist .gist-file {
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.gist .gist-data {
+  background-color: #f6f8fa !important;
+  border-bottom: 1px solid #e1e4e8 !important;
+}
+
+.gist .gist-meta {
+  background-color: #f6f8fa !important;
+  border-top: 1px solid #e1e4e8 !important;
+  color: #586069 !important;
+}
+
+.gist .highlight {
+  background-color: transparent !important;
+}
+
+.gist .blob-code {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.gist .blob-code-inner {
+  background-color: transparent !important;
+}
+
+.gist .blob-num {
+  background-color: #f6f8fa !important;
+  border-right: 1px solid #e1e4e8 !important;
+  color: #586069 !important;
+}
+
+.gist .blob-num-deletion {
+  background-color: #ffeef0 !important;
+}
+
+.gist .blob-num-addition {
+  background-color: #f0fff4 !important;
+}
+
+.gist .blob-code-deletion {
+  background-color: #ffeef0 !important;
+}
+
+.gist .blob-code-addition {
+  background-color: #f0fff4 !important;
+}
+
+/* Fix horizontal lines issue */
+.gist .gist-file .gist-data table {
+  border-collapse: collapse !important;
+}
+
+.gist .gist-file .gist-data table tr {
+  border: none !important;
+  background: transparent !important;
+}
+
+.gist .gist-file .gist-data table td {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.gist .gist-file .gist-data table th {
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Ensure proper scrolling */
+.gist .gist-data {
+  max-height: 400px !important;
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+}
+
+/* Mobile responsiveness for gists */
+@media (max-width: 768px) {
+  .gist {
+    margin: 1em 0;
+    font-size: 0.9em;
+  }
+  
+  .gist .gist-data {
+    max-height: 300px !important;
+  }
+} 

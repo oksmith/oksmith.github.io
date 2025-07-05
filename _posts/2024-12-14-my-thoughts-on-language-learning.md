@@ -47,17 +47,9 @@ Whilst I do think everyone should consider it (if they're interested), there are
 
 - Language learning involves a lot of frustration. If you're someone who struggles with failure or doesn't like being outside your comfort zone, the whole process can be disheartening, and you might quit before you start seeing results.
 
-<figure>
-
 ![](/images/IMG_20231224_105418-edited-scaled.jpg)
-
-<figcaption>
-
-_The Great Wall in winter_
-
-</figcaption>
-
-</figure>
+The Great Wall in winter
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
 ### How not to think about learning a language
 
@@ -100,17 +92,11 @@ To be honest, I feel like I don't have a lot of time to commit to learning Manda
 
 I've made steady progress for the last 7 years to the point that I'd consider myself intermediate to upper-intermediate (whatever that means). I do have weeks or months where I barely study at all. I've had the opportunity to visit China twice which definitely boosted my level a lot, and gave me something clear to toward towards each time. Here's a chart.
 
-<figure>
 
 ![](/images/image-2-1024x537.png)
-
-<figcaption>
-
 Totally accurate diagram of my Mandarin progress over time
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-</figcaption>
-
-</figure>
 
 One pretty painful truth of second languages, is that if you don't practice consistently, _your language level does deteriorate_. This can be pretty demotivating if you have been putting in lots of effort, take a couple of months off, and find you are back to square one.
 
@@ -122,17 +108,11 @@ I recently started taking weekly lessons which have been _amazing_, and I wish I
 
 It's helpful to think of language learning in terms of the 4 main areas: **Listening**, **Reading**, **Speaking**, and **Writing**.
 
-<figure>
 
 ![](/images/image-5-1024x541.png)
+A fairly typical week. I have Tuesday lessons and to listen to Chinese podcasts when I walk to work or go for a run. Most of the week is passive learning.
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-<figcaption>
-
-_A fairly typical week. I have Tuesday lessons and to listen to Chinese podcasts when I walk to work or go for a run. Most of the week is passive learning._
-
-</figcaption>
-
-</figure>
 
 I tend to focus on listening and reading more than the others, because I find watching TV or reading way easier. I am not good at handwriting characters, but can happily type sentences on my laptop or phone). I'm also naturally a very quiet person, so I find engaging in group conversations to be difficult (even in English). Speaking and writing are two areas I probably need to invest more time into.
 
@@ -142,14 +122,7 @@ This level of commitment is something which is doable for me, outside of a full-
 
 I'm not really sure what the point of this post is! I just wanted to put out my thoughts on learning languages as a hobby. I hope I've explained why I consider it a worthy way of spending a bit of time each week. And that it's not as intimidating as some people think. There are some obstacles, especially for adult learners with a busy schedule. But thanks to technology, there are also loads of tools out there to make it a bit easier for you.
 
-<figure>
 
 ![](/images/hua-shan-scaled.jpg)
-
-<figcaption>
-
-_View from one of the peaks of [Hua Shan](https://en.wikipedia.org/wiki/Mount_Hua)_
-
-</figcaption>
-
-</figure>
+View from one of the peaks of [Hua Shan](https://en.wikipedia.org/wiki/Mount_Hua)
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}

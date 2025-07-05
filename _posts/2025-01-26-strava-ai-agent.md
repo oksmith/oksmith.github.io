@@ -38,17 +38,10 @@ The key here being the _agency_ with which the agents can select which function 
 
 I wanted to get to know what current frameworks to build agentic applications are like. I also really enjoy running, but never really add a description to any of my runs on Strava. I also noticed that Strava allows developers [API access](https://developers.strava.com/docs/reference/). These were the three ingredients to the Strava bot idea!
 
-<figure>
-
 ![](/images/graph-1024x568.png)
+The structure of my Strava bot. There are a set of tools, one of which requires human intervention before calling.
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-<figcaption>
-
-_The structure of my Strava bot. There are a set of tools, one of which requires human intervention before calling._
-
-</figcaption>
-
-</figure>
 
 #### LangGraph
 

@@ -95,17 +95,11 @@ My only criticism is that it this "flashcard" style of practice can feel quite b
 
 [Chairman's Bao](https://www.thechairmansbao.com/) is a tool for reading news articles in Chinese. You can click on words you don't know for a quick translation, and listen to the article as you read. They're categorised by HSK levels, so it's super easy to find content that matches your Chinese proficiency. There are also super helpful built-in tools to learn new words or keep record of the ones you weren't sure of. Since there's a huge variety of content, so it's easy to find something that's interesting to you.
 
-<figure>
 
 ![](/images/image-7-1024x613.png)
-
-<figcaption>
-
 Sample article from the Chairman's Bao
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-</figcaption>
-
-</figure>
 
 #### Social media
 

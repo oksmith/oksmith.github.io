@@ -33,17 +33,11 @@ Like me, your first instinct might be to use VSCode's search box to see where a 
 
 Your second instinct might be to use Copilot. I tried that too, but it told me it couldn't answer the question and suggested a brute force search like the one I outlined above!
 
-<figure>
 
 ![](/images/copilot-1024x536.png)
-
-<figcaption>
-
 Thanks, Copilot.
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-</figcaption>
-
-</figure>
 
 Chatbots like this use **_RAG (retrieval-augmented generation)_** - it's a widely known way to feed the LLM domain knowledge that it wouldn't have been trained on. It's a way to reduce hallucinations, and allows you to verify the answers yourself (since you can also return source information e.g. URLs that were used to generate the answer!).
 
@@ -57,17 +51,11 @@ Copilot is a sophisticated RAG system. But, as with many similarity-based RAG sy
 
 When we were building our application we found [CodexGraph](https://arxiv.org/pdf/2408.03910) \[1\], which is very similar in spirit to what we wanted to achieve. However, it wasn't right for us, because (a) it only works on Python repositories, whereas we wanted to use it for Go code (b) its LLM config only contained OpenAI models, whereas we wanted to use local LLMs (or Gemini, as I'll talk about later). But I highly recommend reading that paper because it outlines some very core ideas nicely.
 
-<figure>
 
 ![](/images/image-10-1024x303.png)
+Image from CodexGraph [\[1\]](https://arxiv.org/pdf/2408.03910)
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-<figcaption>
-
-_Image from CodexGraph [\[1\]](https://arxiv.org/pdf/2408.03910)_
-
-</figcaption>
-
-</figure>
 
 #### Step 1: Extracting the Graph
 
@@ -103,17 +91,11 @@ We chose Chroma for our vector store, because it supports persisting the databas
 
 Once you have yourself a vectorstore containing your embedded codebase, you can perform a cosine similarity search and select the top $K$ most similar documents, and use those as context. This is our _semantic retriever_. It's very efficient at understanding the body of the functions and how they work in detail which can help for particular types of user questioning.
 
-<figure>
 
 ![](/images/image-22-1024x434.png)
-
-<figcaption>
-
 Building the stores which will be used in our RAG application.
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-</figcaption>
-
-</figure>
 
 #### Step 4: Building the Graph retriever
 
@@ -143,17 +125,11 @@ The main LLM we used for this project was Gemini. We tried some local LLMs such 
 
 We wrapped it all up into a Streamlit app so that users can have a slick UI, and boom, we have a graph-powered chatbot. Here's an example of us asking it a question that would only be possible to answer when traversing a graph of code dependencies:
 
-<figure>
 
 ![](/images/graphraganswer-1024x699.png)
-
-<figcaption>
-
 Our RAG app identifies what "GetAggregates" is, and retrieves its graph neighbourhood for Q&A.
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-</figcaption>
-
-</figure>
 
 ### Improvements
 
@@ -179,4 +155,3 @@ We did actually try chucking our codebase into an LLM and using LlamaIndex's [Sc
 
 \[2\] From Local to Global: A Graph RAG Approach to Query-Focused Summarization - [https://arxiv.org/pdf/2404.16130](https://arxiv.org/pdf/2404.16130)
 
-\[latexpage\]

@@ -163,17 +163,10 @@ The drawback, of course, of online evaluation is that testing online can be expe
 
 In addition to that, if you don’t have the right systems / technology / engineering infrastructure in place to be able to shift traffic between the old and new policies easily, it can also be a time consuming and painful experience.
 
-<figure>
-
-[![](/images/contextual-bandits-system-1024x395.png)](https://olliesmith.blog/wp-content/uploads/2024/11/contextual-bandits-system.png)
-
-<figcaption>
-
+[![](/images/contextual-bandits-system-1024x395.png)]
 Contextual bandits system
+{:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
-</figcaption>
-
-</figure>
 
 #### Conclusion
 
@@ -196,5 +189,3 @@ However, there are drawbacks, and practically speaking you’ll want to roll out
 - \[5\] Doubly Robust Policy Evaluation and Optimization — [https://arxiv.org/abs/1503.02834](https://arxiv.org/abs/1503.02834)
 
 - \[6\] Online contextual bandits modelling: [https://arxiv.org/pdf/1811.04383](https://arxiv.org/pdf/1811.04383)
-
-\[latexpage\]

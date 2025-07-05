@@ -55,7 +55,7 @@ These are the podcasts that have stuck with me, and I continue to listen to ever
 
 - **听故事说中文** [Learning Chinese through Stories](https://open.spotify.com/show/04re9FvL1xviHGWvXKoAhZ?si=aee6a3c948294ff4) - this was probably the first Chinese-speaking podcast I ever properly got into! I've been listening to it on and off for years now. There are two presenters, a wife and husband, telling and then explaining stories (in the early episodes these are mainly 成语chengyu stories). They provide episodes graded at different levels which tend to come in two parts; the first (the "story") is short and contains lots of new words or phrases. And the second part (the "walkthrough") is the main way you'll learn new stuff. They repeat new phrases in several different ways which really reinforces the phrases you've already learnt, and give lots of examples to make sure it sticks.
 
-![](images/image-6-1024x271.png)
+![](/images/image-6-1024x271.png)
 
 #### TV shows
 
@@ -69,9 +69,9 @@ Firstly, I've found it way better for my language comprehension to watch Chinese
 
 - **奔跑吧** Keep Running - this one's a little different from the first two, this one is a variety show where celebrities compete in physical and mental challenges in teams. It can be incredibly funny, my partner and I sometimes watch it while we're eating dinner. It's a great way to learn slang and celebrity stuff, and also to see how people actually interact with one another in a competitive game show setting and the different personalities on show. When I watch it I feel like I'm learning how Chinese banter works.
 
-![](images/sudaqiang.jpeg)
+![](/images/sudaqiang.jpeg)
 
-![](images/sanshi.jpg)
+![](/images/sanshi.jpg)
 
 Honorary mentions:
 
@@ -97,7 +97,7 @@ My only criticism is that it this "flashcard" style of practice can feel quite b
 
 <figure>
 
-![](images/image-7-1024x613.png)
+![](/images/image-7-1024x613.png)
 
 <figcaption>
 

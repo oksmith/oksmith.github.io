@@ -35,7 +35,7 @@ Your second instinct might be to use Copilot. I tried that too, but it told me i
 
 <figure>
 
-![](images/copilot-1024x536.png)
+![](/images/copilot-1024x536.png)
 
 <figcaption>
 
@@ -49,7 +49,7 @@ Chatbots like this use **_RAG (retrieval-augmented generation)_** - it's a widel
 
 RAG systems work by _embedding_ the semantic meaning behind each document into a vector store that you can query against from. When a user asks a query $Q$ the system embeds $Q$ into a vector, performs a similarity search to retrieve the top $K$ matching vectors, decodes them back into the original text, and adds this context to the original question as additional context. This combined input is sent to an LLM, enabling it to provide more accurate answers.
 
-![](images/image-15-1024x395.png)
+![](/images/image-15-1024x395.png)
 
 Copilot is a sophisticated RAG system. But, as with many similarity-based RAG systems, it struggles to answer complex questions requiring knowledge across the _entire_ repository structure and dependencies. These repository-level questions are often what we really care about. So vector similarity-based RAG is simply not enough.
 
@@ -59,7 +59,7 @@ When we were building our application we found [CodexGraph](https://arxiv.org/pd
 
 <figure>
 
-![](images/image-10-1024x303.png)
+![](/images/image-10-1024x303.png)
 
 <figcaption>
 
@@ -89,7 +89,7 @@ Setting up a Kuzu database is simple as creating a database connection and copyi
 
 Once you've created the database, you can inspect it by running the Kuzu explorer. It's a built-in tool allowing you to execute Cypher queries and visualise the outputs! You just need to pull the Docker image and it should work. It has an intuitive drag-drop interface and can be a nice way to debug things.
 
-![](images/kuzu-1024x577.png)
+![](/images/kuzu-1024x577.png)
 
 The final part of building the graph, was to create a _node index_. This is because many graph retrieval mechanisms needed for graph RAG need to have a "starting point". The node index is created by embedding each node's associated test (and/or metadata) into a vector space using an embedding model. These embeddings capture the semantic meaning of the node's information, allowing you to query into it based on an unseen user question. But more on that in Step 4!
 
@@ -105,7 +105,7 @@ Once you have yourself a vectorstore containing your embedded codebase, you can 
 
 <figure>
 
-![](images/image-22-1024x434.png)
+![](/images/image-22-1024x434.png)
 
 <figcaption>
 
@@ -137,7 +137,7 @@ Our actual graph retrieval contains some try-except blocks so that, if the Cyphe
 
 Combining it all together, the flow from user question to final answer from the LLM looks like this:
 
-![](images/image-21-1024x572.png)
+![](/images/image-21-1024x572.png)
 
 The main LLM we used for this project was Gemini. We tried some local LLMs such as Llama 3 but we found that Gemini produced the best results.
 
@@ -145,7 +145,7 @@ We wrapped it all up into a Streamlit app so that users can have a slick UI, and
 
 <figure>
 
-![](images/graphraganswer-1024x699.png)
+![](/images/graphraganswer-1024x699.png)
 
 <figcaption>
 

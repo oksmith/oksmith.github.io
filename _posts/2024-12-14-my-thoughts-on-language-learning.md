@@ -49,7 +49,7 @@ Whilst I do think everyone should consider it (if they're interested), there are
 
 <figure>
 
-![](images/IMG_20231224_105418-edited-scaled.jpg)
+![](/images/IMG_20231224_105418-edited-scaled.jpg)
 
 <figcaption>
 
@@ -102,7 +102,7 @@ I've made steady progress for the last 7 years to the point that I'd consider my
 
 <figure>
 
-![](images/image-2-1024x537.png)
+![](/images/image-2-1024x537.png)
 
 <figcaption>
 
@@ -124,7 +124,7 @@ It's helpful to think of language learning in terms of the 4 main areas: **Liste
 
 <figure>
 
-![](images/image-5-1024x541.png)
+![](/images/image-5-1024x541.png)
 
 <figcaption>
 
@@ -144,7 +144,7 @@ I'm not really sure what the point of this post is! I just wanted to put out my 
 
 <figure>
 
-![](images/hua-shan-scaled.jpg)
+![](/images/hua-shan-scaled.jpg)
 
 <figcaption>
 

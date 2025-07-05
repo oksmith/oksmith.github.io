@@ -33,7 +33,7 @@ Many applications require you to optimise decisions where there are multiple opt
 
 **Multi-armed bandits** (MAB) are a type of [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) framework - a field of machine learning where agents learn optimal behaviours by taking actions and receiving feedback from their environment. MAB describes a subset of problems where the agent earns a reward _immediately_ after taking an action and there are no states or state transitions.
 
-![](images/bandits-in-rl.png)
+![](/images/bandits-in-rl.png)
 
 The **contextual bandit** problem extends the multi-armed bandit framework by incorporating contextual information (features) to make decisions. That means trials with different feature sets can lead to different reward estimates; an action that is optimal for one trial may not be optimal for another.
 
@@ -57,13 +57,13 @@ For our use case, the theory can be mapped onto practice as follows:
 
 Ultimately, in contextual bandits you want to use the context and labels to predict the reward for _each of the K arms_. This is a bit like a multi-label classification where there are multiple output predictions, as in the image below.
 
-![](images/full-feedback-hypothetical.png)
+![](/images/full-feedback-hypothetical.png)
 
 #### OK, so what makes this problem different from supervised learning?
 
 Labels are only partially known!
 
-![](images/partial-feedback.png)
+![](/images/partial-feedback.png)
 
 Once you’ve decided that you want to pull a _particular_ arm, you take action and your environment returns a reward. Very rarely in the real world can you go back and “try again”. Once an action has been performed, _you cannot know what would have happened down had you chosen a different action_.
 
@@ -81,7 +81,7 @@ A policy is the strategy or decision-making rule used to determine the actions w
 
 Let’s assume you’ve got a model which outputs K probabilities, one for each arm. After applying the exploration policy, you are left with a distribution of **selection probabilities** over your K arms which always add up to 1. You pull one of the arms probabilistically from this final distribution at each step.
 
-![](images/action-selection-probabilities.png)
+![](/images/action-selection-probabilities.png)
 
 For example, imagine you’re using an epsilon-greedy policy with epsilon = 0.1. Then the model outputs and action selection probabilities might look something like this:
 
@@ -103,7 +103,7 @@ Normally when we train a supervised model, we are able to split the dataset into
 
 A natural metric is the "average reward" under the new policy. The problem is that the process which collected the data is _different to the process that will select actions in the future_, once you’ve deployed the model to production.
 
-![](images/unknown-new-rewards.png)
+![](/images/unknown-new-rewards.png)
 
 We only know whether the new policy’s action would’ve been a good one _if_ it matches the action chosen by the live policy. And only evaluating the average expected reward on those rows where the two policies match (dropping all rows where they don’t match) introduces bias. This means that we cannot trust such metrics to generalise to unseen data in the future, when the new policy will be making the decisions.
 
@@ -119,7 +119,7 @@ _Note_: For off-policy evaluation techniques, you need to know what the action s
 
 Firstly some notation, let $\\nu$ be the new policy’s action selection probabilities and let $\\mu$ be the old (live) policy. $r\_{k}$ is the reward observed by the live policy, $a\_{k}$ is the action taken by the live policy, and $x\_{k}$ is the context (features) at each step $k$.
 
-![](images/ips-formula-1024x309.png)
+![](/images/ips-formula-1024x309.png)
 
 Here’s an intuition behind the IPS estimate:
 
@@ -165,7 +165,7 @@ In addition to that, if you don’t have the right systems / technology / engine
 
 <figure>
 
-[![](images/contextual-bandits-system-1024x395.png)](https://olliesmith.blog/wp-content/uploads/2024/11/contextual-bandits-system.png)
+[![](/images/contextual-bandits-system-1024x395.png)](https://olliesmith.blog/wp-content/uploads/2024/11/contextual-bandits-system.png)
 
 <figcaption>
 

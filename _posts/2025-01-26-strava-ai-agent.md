@@ -40,7 +40,7 @@ I wanted to get to know what current frameworks to build agentic applications ar
 
 <figure>
 
-![](images/graph-1024x568.png)
+![](/images/graph-1024x568.png)
 
 <figcaption>
 
@@ -84,11 +84,11 @@ You can check out the code for all of this [on GitHub here](https://github.com/o
 
 Here's a gif demonstrating the intended usage of "Running Buddy":
 
-![](images/agent.gif)
+![](/images/agent.gif)
 
 Here's the corresponding update to my run on Strava:
 
-![](images/strava.png)
+![](/images/strava.png)
 
 Overall, it seems to work surprisingly well! I can have conversations with the chatbot, and iteratively refine the poem if it wasn't quite right. I could cancel the activity update if I had a change of heart, and continue with the update if I'm happy to proceed. It remembers the earlier parts of the conversation and adapts its tool usage accordingly.
 

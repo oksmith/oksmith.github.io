@@ -123,11 +123,11 @@ Firstly some notation, let $\\nu$ be the new policy’s action selection probabi
 
 Here’s an intuition behind the IPS estimate:
 
-- we are taking a weighted average of the rewards $r_{k}$ seen at each step. The weights are given by $\nu(a_{k}|x_{k})) / \mu(a_{k}|x_{k}))$
+- we are taking a weighted average of the rewards $r_{k}$ seen at each step. The weights are given by $\nu(a_{k}|x_{k}) / \mu(a_{k}|x_{k})$
 
-- the $1 / \mu(a_{k}|x_{k}))$ term acts as a debiasing factor, to account for the fact that the way the data was gathered is biased towards the live policy’s preferences
+- the $1 / \mu(a_{k}|x_{k})$ term acts as a debiasing factor, to account for the fact that the way the data was gathered is biased towards the live policy’s preferences
 
-- the $\nu(a_{k}|x_{k}))$ term is in the numerator because, what we ultimately want is an _expected value_ $\mathbb{E}( . )$ under the new policy’s probabilities
+- the $\nu(a_{k}|x_{k})$ term is in the numerator because, what we ultimately want is an _expected value_ $\mathbb{E}( . )$ under the new policy’s probabilities
 
 [This](https://math.uchicago.edu/~may/REU2019/REUPapers/Kim,SangHoon.pdf) paper \[3\] demonstrates that IPS is an unbiased estimate for the true expected reward under the new policy.
 

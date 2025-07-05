@@ -75,6 +75,15 @@
   background-color: #f6f8fa !important;
   border-right: 1px solid #e1e4e8 !important;
   color: #586069 !important;
+  padding-right: 16px !important;
+  min-width: 50px !important;
+  text-align: right !important;
+}
+
+.gist .blob-code {
+  background-color: transparent !important;
+  border: none !important;
+  padding-left: 16px !important;
 }
 
 .gist .blob-num-deletion {

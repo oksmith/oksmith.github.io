@@ -14,11 +14,11 @@ tags:
   - "ravelin"
   - "reinforcement-learning"
   - "transaction-optimisation"
-coverImage: "/images/xc.png"
+coverImage: "/images/cows-bashing-heads.png"
 published: true
 ---
 
-![](/images/xc-1024x791.png)
+![](/images/cows-bashing-heads.png)
 When routes compete with each other for the highest reward
 {:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
@@ -163,7 +163,7 @@ The drawback, of course, of online evaluation is that testing online can be expe
 
 In addition to that, if you don’t have the right systems / technology / engineering infrastructure in place to be able to shift traffic between the old and new policies easily, it can also be a time consuming and painful experience.
 
-[![](/images/contextual-bandits-system-1024x395.png)]
+[![](/images/contextual-bandits-system.png)]
 Contextual bandits system
 {:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 

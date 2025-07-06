@@ -34,7 +34,7 @@ Like me, your first instinct might be to use VSCode's search box to see where a 
 Your second instinct might be to use Copilot. I tried that too, but it told me it couldn't answer the question and suggested a brute force search like the one I outlined above!
 
 
-![](/images/copilot-1024x536.png)
+![](/images/copilot.png)
 Thanks, Copilot.
 {:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 
@@ -126,7 +126,7 @@ The main LLM we used for this project was Gemini. We tried some local LLMs such 
 We wrapped it all up into a Streamlit app so that users can have a slick UI, and boom, we have a graph-powered chatbot. Here's an example of us asking it a question that would only be possible to answer when traversing a graph of code dependencies:
 
 
-![](/images/graphraganswer-1024x699.png)
+![](/images/graphrag-answer.png)
 Our RAG app identifies what "GetAggregates" is, and retrieves its graph neighbourhood for Q&A.
 {:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 

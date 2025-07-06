@@ -123,6 +123,6 @@ This level of commitment is something which is doable for me, outside of a full-
 I'm not really sure what the point of this post is! I just wanted to put out my thoughts on learning languages as a hobby. I hope I've explained why I consider it a worthy way of spending a bit of time each week. And that it's not as intimidating as some people think. There are some obstacles, especially for adult learners with a busy schedule. But thanks to technology, there are also loads of tools out there to make it a bit easier for you.
 
 
-![](/images/hua-shan-scaled.jpg)
+![](/images/hua-shan.jpg)
 View from one of the peaks of [Hua Shan](https://en.wikipedia.org/wiki/Mount_Hua)
 {:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}

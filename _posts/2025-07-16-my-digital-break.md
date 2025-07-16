@@ -32,7 +32,7 @@ Like so many other people, I use my phone a lot. More than I want to. But I don'
 
 For a long time, maybe 5+ years, I've been concerned about the amount of time I spend on my phone and have taken active steps to limit how distracting my phone is (for example, I've had almost all notifications turned off for ages). I value my time very highly, so the idea that we can waste so much of it without realising is quite terrifying (if you're not convinced, I find [this TED talk](https://www.youtube.com/watch?v=4TMPXK9tw5U) particularly compelling). We only have so many hours on this planet, we might as well find meaningful ways to use it, and not squander it unintentionally by doomscrolling on TikTok.
 
-![](/images/tedtalk.png)
+![](/images/ted-talk-time.png)
 An image from the TED Talk "The Battle for Your Time: Exposing the Costs of Social Media" by Dino Ambrosi that stuck with me (I can't find a source for the numbers)
 {:style="color:gray;font-style:italic;font-size:90%;text-align:center;"}
 

@@ -13,10 +13,10 @@ layout: default
         </div>
       </a>
       {% if post.coverImage %}
-        <img class="cover-image" src="{{ post.coverImage | prepend: site.baseurl }}" alt="{{ post.title }} cover image">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img class="cover-image" src="{{ post.coverImage | prepend: site.baseurl }}" alt="{{ post.title }} cover image">
+        </a>
       {% endif %}
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 

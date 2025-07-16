@@ -64,15 +64,15 @@ h2 {
 }
 
 @media (min-width: 769px){
-	.post h2::before, .post h2::after {
-	    content: "";
-	    display: inline-block;
-	    vertical-align: middle;
-	    width: 46px;
-	    height: 1px;
-	    background: rgb(192, 211, 218);
-	    margin: 0px 30px;
-	}
+  /* .post h2::before, .post h2::after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 46px;
+      height: 1px;
+      background: rgb(192, 211, 218);
+      margin: 0px 30px;
+  } */
 }
 
 h3 {
@@ -448,13 +448,21 @@ body:after {
     z-index: 1000;
 }
 
-.post h1{
+.posts > .post h1 {
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
+}
+
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  text-align: left;
 }
 
 .page h1{
@@ -1149,7 +1157,7 @@ Modules - reusable parts of our design
 
 .cover-image {
   display: block;
-  max-width: 500px;   // or whatever size you want
+  max-width: 740px;
   width: 100%;
   height: auto;
   margin: 0 auto 1em auto;
@@ -1165,4 +1173,12 @@ Modules - reusable parts of our design
   margin: 1.5em auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.post .entry h2,
+.post .entry h3,
+.post .entry h4,
+.post .entry h5,
+.post .entry h6 {
+  text-align: left !important;
 }

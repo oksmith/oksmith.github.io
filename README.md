@@ -5,5 +5,5 @@ Reverie is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and o
 
 To run the website locally, follow [this guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 ```
-bundle exec jekyll serve
+eval "$(rbenv init - zsh)" && bundle exec jekyll serve
 ```

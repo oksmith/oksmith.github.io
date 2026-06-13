@@ -1186,3 +1186,9 @@ Modules - reusable parts of our design
 .post .entry h6 {
   text-align: left !important;
 }
+
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column !important;
+  }
+}

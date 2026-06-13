@@ -49,6 +49,7 @@
               <a href="{{ site.baseurl }}/">Home</a>
               <a href="{{ site.baseurl }}/search">Search</a>
               <a href="{{ site.baseurl }}/about">About</a>
+              <a href="{{ site.baseurl }}/burgess-park/">Trees</a>
               <a href="{{ site.baseurl }}/archive">Archive</a>
             </nav>
           </header>
@@ -56,8 +57,10 @@
       </div>
 
       <div class="wrapper-main">
-        <div id="main" role="main" class="container">
-          {{ content }}
+        <div class="{% if page.wide_post %}wide-post{% endif %}">
+          <div id="main" role="main" class="container">
+            {{ content }}
+          </div>
         </div>
       </div>
 
